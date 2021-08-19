@@ -14,7 +14,7 @@ a{
     height: 100%;
     width: 300px;
     background-color: #016499;
-    padding: 40px 0px 0px 40px;
+    padding: 40px 0px 0px 0px;
 
 }
 
@@ -35,7 +35,24 @@ a{
     color: yellowgreen;
 }
 
-.container{
+.sidebar li{
+    padding: 10px;
+}
 
+.sidebar-container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+
+}
+
+.logo-doceria{
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
 }
 
