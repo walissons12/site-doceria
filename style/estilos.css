@@ -1,0 +1,41 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+    color: #373A3C;
+
+}
+
+a{
+    text-decoration: none;
+    transition: .3s;
+}
+
+.sidebar{
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    background-color: #016499;
+    padding: 40px 0px 0px 40px;
+
+}
+
+.sidebar h1{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    margin: 20px 0px 40px 0px ;
+
+}
+
+.sidebar a{
+    color: white;
+    font-size: 18px;
+}
+
+.sidebar a:hover{
+    color: yellowgreen;
+}
+
+.container{
+
+}
+
