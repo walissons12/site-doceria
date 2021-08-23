@@ -3,7 +3,7 @@ html{
     color: #373A3C;
 
 }
-
+/* menu lateral */
 a{
     text-decoration: none;
     transition: .3s;
@@ -56,3 +56,41 @@ a{
     margin-left: auto;
 }
 
+/* conteudo principal do site */
+
+.content{
+    position: absolute;
+    left: 300px;
+    width: calc(100% - 300px);
+}
+
+.content h1, .content h2{
+    color: tomato;
+    margin-bottom: 30px;
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+.content h2{
+    font-size: 35px;
+}
+
+section {
+    padding-left: 50px;
+}
+
+#sessao-bemvindo{
+    padding-left: 0px;
+}
+
+.bemvindo-content{
+    padding-left: 50px;
+}
+
+#sessao-bemvindo .banner{
+    height: 500px;
+    background-image: url(../img/banner2.jpg);
+    background-position: center;
+}
